@@ -28,8 +28,8 @@
       <xsl:value-of select="price"/>
     </div>
 
-    <div style="background-color:#D8D8D8; color:black; padding:10px; margin-bottom:1em; width:100%; box-sizing:border-box;">
-    <p style="margin: 0; font-size:10pt;">
+    <div style="background-color:#D8D8D8; color:black; padding:10px; margin-bottom:1em; width:100%; box-sizing:border-box;font-size:10pt">
+    <p style="margin: 0;">
       <xsl:value-of select="description"/>
       <span style="font-style:italic">
         (<xsl:value-of select="calories"/> calories per serving)
